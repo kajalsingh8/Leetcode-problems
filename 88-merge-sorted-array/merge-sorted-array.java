@@ -1,6 +1,7 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        if(n == 0)return;
+        if(n == 0)
+        return;
         int len1 = nums1.length;
         int end_idx = len1-1;
         while(n > 0 && m > 0){
